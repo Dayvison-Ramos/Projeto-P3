@@ -6,7 +6,7 @@ public class Poupanca extends Conta{
         super(numero, saldo);
     }
     
-    public Poupanca(String n){
+    public Poupanca(String numero){
         super(numero);
     }
     
