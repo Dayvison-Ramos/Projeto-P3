@@ -7,7 +7,7 @@ public class Conta extends ContaAbstrata{
         super(numero, saldo);
     }
     
-    public Conta(String n){
+    public Conta(String numero){
         super(numero);
     }
     
