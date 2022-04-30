@@ -15,7 +15,7 @@ public class Imposto extends ContaAbstrata{
     }
     
     @Override
-    public void debitar(double valor) {
+    public void debitar(double v) {
         double imposto = 0.01;
         super.setSaldo(super.getSaldo() - (valor + valor * imposto));
     }
