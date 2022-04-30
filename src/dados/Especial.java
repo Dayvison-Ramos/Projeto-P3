@@ -8,7 +8,7 @@ public class Especial extends Conta{
         this.bonus = 0;
     }
     
-    public Especial(String numero){
+    public Especial(String n){
         super(numero);
         this.bonus = 0;
     }
