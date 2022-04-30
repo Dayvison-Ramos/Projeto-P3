@@ -37,5 +37,5 @@ public abstract class ContaAbstrata {
         this.saldo = this.saldo + valor;
     }
     
-    public abstract void debitar(double valor);
+    public abstract void debitar(double v);
 }
